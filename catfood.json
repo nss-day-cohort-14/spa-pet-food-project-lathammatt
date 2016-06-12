@@ -1,0 +1,72 @@
+{
+  "cat_brands": [
+    {
+      "name": "Purina",
+      "breeds": ["Siamese", "Bengal", "Showshoe", "Munchkin"],
+      "types": [
+        {
+          "type": "Kitten",
+          "volumes": [
+            {
+              "name": "20oz",
+              "price": 19.99
+            },
+            {
+              "name": "32oz",
+              "price": 26.99
+            }
+            {
+              "name": "64oz",
+              "price": 34.99
+            }
+          ]
+        },
+        {
+          "type": "Elite",
+          "volumes": [
+            {
+              "name": "20oz",
+              "price": 24.99
+            },
+            {
+              "name": "40oz",
+              "price": 47.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meow Meal",
+      "breeds": ["Manx", "Egyptian Mau", "Himalayan", "Rag Doll"],
+      "types": [
+        {
+          "type": "Kitten",
+          "volumes": [
+            {
+              "name": "24oz",
+              "price": 19.99
+            },
+            {
+              "name": "48oz",
+              "price": 34.99
+            }
+          ]
+        },
+        {
+          "type": "Adult",
+          "volumes": [
+            {
+              "name": "28oz",
+              "price": 22.99
+            },
+            {
+              "name": "56oz",
+              "price": 40.99
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
