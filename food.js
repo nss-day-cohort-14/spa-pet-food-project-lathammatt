@@ -30,7 +30,6 @@ function failedFile(){
 var output = document.getElementById("products");
 
 function applyInfo(object){
-  console.log(typeof object, object);
 
   for (var i = 0; i < object.dog_brands.length; i++) {
     var mainCans = document.createElement("div");
@@ -57,7 +56,6 @@ function applyInfo(object){
 };
 
 function applyCata(object){
-  console.log(typeof object, object);
 
   for (var i = 0; i < object.cat_brands.length; i++) {
     var mainCans = document.createElement("div");
