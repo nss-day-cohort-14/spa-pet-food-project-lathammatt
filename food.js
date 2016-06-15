@@ -55,8 +55,6 @@ function applyInfo(object){
 
 }}
 };
-// make elements, assign attribute id's with counters, add childs using document.getElementById("id").appendChild(innervariable)
-var catput = document.getElementById("products2");
 
 function applyCata(object){
   console.log(typeof object, object);
