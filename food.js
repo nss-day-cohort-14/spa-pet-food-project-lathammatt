@@ -32,6 +32,7 @@ var output = document.getElementById("products");
 function applyInfo(object){
 
   for (var i = 0; i < object.dog_brands.length; i++) {
+    // var currentBrand = object.dog_brands[i];
     var mainCans = document.createElement("div");
     mainCans.className = "name";
     mainCans.appendChild(document.createTextNode(object.dog_brands[i].name));
@@ -56,7 +57,7 @@ function applyInfo(object){
 };
 
 function applyCata(object){
-
+1
   for (var i = 0; i < object.cat_brands.length; i++) {
     var mainCans = document.createElement("div");
     mainCans.className = "name";
